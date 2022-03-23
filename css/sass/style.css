@@ -1,0 +1,441 @@
+.NavBar_Section {
+  background-color: black;
+  z-index: 99999; }
+.NavBar_Section .Title {
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif !important; }
+.NavBar_Section .navbar-dark .navbar-nav .nav-link {
+  font-size: 20px;
+  color: #FFF;
+  cursor: pointer;
+  margin-left: 10px; }
+.NavBar_Section .navbar-dark .navbar-nav .nav-link:hover {
+  color: #CCC; }
+.NavBar_Section .navbar-dark .navbar-toggler-icon {
+  background-image: url("https://img.icons8.com/cotton/256/000000/menu.png");
+  background-color: #CCC;
+  border-radius: 50%;
+  font-size: 30px; }
+
+/******************************************************************/
+.slider {
+  margin-top: -3px; }
+.slider .carousel-inner .centered {
+  position: absolute;
+  width: 914px;
+  z-index: 9999;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  /* for IE 9 */
+  -webkit-transform: translate(-50%, -50%);
+  /* for Safari */ }
+@media (min-width: 320px) and (max-width: 575px) {
+  .slider .carousel-inner .centered {
+    max-width: 300px; } }
+.slider .carousel-inner .centered .Title_Marhaba {
+  position: relative;
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+  color: #FFF; }
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider .carousel-inner .centered .Title_Marhaba {
+    font-size: 65px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .slider .carousel-inner .centered .Title_Marhaba {
+    font-size: 75px; } }
+@media (min-width: 320px) and (max-width: 575px) {
+  .slider .carousel-inner .centered .Title_Marhaba {
+    padding-top: 40px;
+    font-size: 50px;
+    line-height: 1.5; } }
+.slider .carousel-inner .centered .Text_incontournable {
+  margin-top: 20px;
+  font-size: 31px;
+  font-family: "Open Sans", sans-serif;
+  color: #FFF; }
+.slider .carousel-inner .centered .Text_incontournable .SpanMaroc {
+  color: red;
+  font-weight: bold; }
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider .carousel-inner .centered .Text_incontournable {
+    font-size: 34px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .slider .carousel-inner .centered .Text_incontournable {
+    font-size: 33px;
+    top: 45%; } }
+@media (min-width: 320px) and (max-width: 575px) {
+  .slider .carousel-inner .centered .Text_incontournable {
+    font-size: 20px;
+    top: 45%; } }
+.slider .carousel-item {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+.slider .carousel-1 {
+ /* background-image: url("../../../../images/slider/slider_img.webp"); }*/
+  background-image: url("../../images/slider/slider_img.webp"); }
+.slider .arrow {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  cursor: pointer; }
+.slider .arrow i {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 32px;
+  cursor: pointer; }
+.slider .fa-chevron-down:before {
+  content: "\f078";
+  color: #FFF; }
+
+/******************************************************************/
+.about-section-box {
+  background-color: #f8f9fa;
+  padding: 100px 0px 30px 0px;
+  color: black; }
+.about-section-box .WelcomeText {
+  font-family: "Arbutus Slab", serif;
+  font-size: 40px;
+  color: #010101;
+  margin-bottom: 50px; }
+.about-section-box .WelcomeText span {
+  color: red; }
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-section-box .WelcomeText {
+    margin-bottom: 35px !important; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .about-section-box .WelcomeText {
+    font-size: 39px; } }
+@media (min-width: 320px) and (max-width: 575px) {
+  .about-section-box .WelcomeText {
+    font-size: 35px; } }
+.about-section-box .img-fluid {
+  border-radius: 1%;
+  padding-top: 10px !important;
+  height: auto; }
+@media (min-width: 992px) and (max-width: 1999px) {
+  .about-section-box .img-fluid {
+    height: 400px !important; } }
+.about-section-box .Textpresen {
+  font-size: 20px;
+  line-height: 1.8;
+  margin-top: 20px !important; }
+@media (min-width: 992px) and (max-width: 1999px) {
+  .about-section-box .Textpresen {
+    margin-top: 0px !important; } }
+
+/******************************************************************/
+.qt-background {
+  /*background: url(../../../../images/qt-bg.webp) no-repeat;*/
+  background: url(../../images/qt-bg.webp) no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  padding-right: 0px;
+  background-attachment: fixed;
+  background-position: center center;
+  position: relative; }
+.qt-background .txt_QT {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 44px;
+  color: #FFF;
+  font-family: 'Arbutus Slab', serif;
+  margin-bottom: 20px; }
+@media (min-width: 768px) and (max-width: 991px) {
+  .qt-background .txt_QT {
+    line-height: 55px !important; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .qt-background .txt_QT {
+    font-size: 33px !important;
+    line-height: 47px !important; } }
+@media (min-width: 320px) and (max-width: 575px) {
+  .qt-background .txt_QT {
+    font-size: 29px;
+    line-height: 44px; } }
+.qt-background .txt_QT .mar {
+  color: red; }
+.qt-background .span_Chef {
+  color: #ffc107;
+  font-size: 20px;
+  font-weight: 500; }
+
+/******************************************************************/
+.Menu_Restaurant {
+  background-color: #F9F9F9 !important;
+  padding-bottom: 30px; }
+.Menu_Restaurant .Txt_Special {
+  font-family: "Arbutus Slab", serif;
+  font-size: 40px;
+  color: #e74c3c;
+  margin-top: 90px !important;
+  margin-bottom: 10px; }
+.Menu_Restaurant .Txt_Decou {
+  font-size: 20px;
+  margin-bottom: 45px; }
+@media (min-width: 768px) and (max-width: 991px) {
+  .Menu_Restaurant .Txt_Decou {
+    font-size: 17px !important; } }
+.Menu_Restaurant .filter-button-group {
+  border: 1px solid #e4e4e4;
+  border-radius: 4px;
+  margin: 10px 15px;
+  display: inline-block; }
+.Menu_Restaurant .filter-button-group button {
+  color: #333;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  background: #fff;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px; }
+@media (min-width: 320px) and (max-width: 575px) {
+  .Menu_Restaurant .filter-button-group button {
+    width: 100%; } }
+.Menu_Restaurant .filter-button-group button.active {
+  background: #cfa671;
+  color: #fff;
+  box-shadow: 2px 20px 45px 5px rgba(0, 0, 0, 0.2); }
+@media (min-width: 576px) and (max-width: 767px) {
+  .Menu_Restaurant .filter-button-group .Btn_G {
+    width: 91%; } }
+.Menu_Restaurant .gallery-single {
+  margin: 30px 0px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc; }
+.Menu_Restaurant .why-text {
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  right: 0;
+  height: 100%;
+  background: rgba(207, 166, 113, 0.9);
+  padding: 12px 12px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease; }
+.Menu_Restaurant .why-text h4 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Arbutus Slab', serif; }
+.Menu_Restaurant .why-text p {
+  color: #ffffff;
+  font-size: 18px;
+  border-bottom: 1px dashed #010101;
+  margin: 0px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+.Menu_Restaurant .why-text h5 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff; }
+.Menu_Restaurant .gallery-single:hover .why-text {
+  bottom: 0px; }
+
+/******************************************************************/
+.Espace_Res .TitleEspaceRes {
+  font-family: "Arbutus Slab", serif;
+  font-size: 40px;
+  color: #e74c3c;
+  margin-top: 20px !important;
+  margin-bottom: 10px; }
+.Espace_Res .PEspaceRes {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 30px; }
+.Espace_Res .gallery-box {
+  padding: 70px 0px; }
+.Espace_Res .tz-gallery {
+  margin-top: 30px; }
+.Espace_Res .tz-gallery .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  z-index: 99999999; }
+.Espace_Res .tz-gallery .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); }
+
+/******************************************************************/
+.Our_Team {
+  background-color: #F9F9F9 !important;
+  padding-top: 93px;
+  padding-bottom: 60px; }
+.Our_Team .section_Team .title_team {
+  font-family: "Arbutus Slab", serif;
+  font-size: 40px;
+  color: #e74c3c;
+  margin-bottom: 10px; }
+.Our_Team .section_Team .Txt_Team {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 55px; }
+
+/******************************************************************/
+.contact-imfo-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
+  color: #FFF;
+  padding: 25px 0; }
+.contact-imfo-box .lead {
+  color: #FFF !important;
+  font-size: 19px;
+  color: black; }
+.contact-imfo-box .overflow-hidden {
+  overflow: hidden; }
+.contact-imfo-box .contact-imfo-box h4 {
+  margin: 0px;
+  margin-top: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0px;
+  font-weight: 500;
+  line-height: 24px; }
+.contact-imfo-box .contact-imfo-box p {
+  margin: 0px;
+  color: #ffffff;
+  font-weight: 300; }
+
+.contact-imfo-box i {
+  display: block;
+  float: left;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #fff;
+  color: #d0a772;
+  font-size: 30px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  margin-right: 20px; }
+
+/******************************************************************/
+.Maps {
+  margin-right: 30px; }
+.Maps .styleFrame {
+  overflow: hidden;
+  padding: 30px !important;
+  border-radius: 1%; }
+
+/******************************************************************/
+.footer {
+  background-color: #253542 !important;
+  color: #FFF;
+  padding: 50px 0; }
+.footer .styleHR {
+  border-top: 1px solid #FFF !important;
+  display: none; }
+@media (min-width: 320px) and (max-width: 575px) {
+  .footer .styleHR {
+    display: block !important; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer .TContact {
+    margin-top: 20px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer .TContact {
+    margin-top: 20px; } }
+@media (min-width: 320px) and (max-width: 575px) {
+  .footer .T_Title {
+    margin-top: 10px; } }
+.footer .T_Title {
+  font-size: 22px; }
+.footer .ContactInfo h2 {
+  font-size: 20px !important; }
+.footer .ul_Heures {
+  margin-left: -26px !important; }
+.footer .ul_contact {
+  margin-left: -26px !important; }
+.footer .item_Li {
+  color: #FFF; }
+.footer .subscribe_form .form_input {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 40px; }
+.footer .subscribe_form .divButton .Btn_Subscribe {
+  width: 100%; }
+
+/******************************************************************/
+.CopyRight {
+  background-color: black;
+  padding: 10px;
+  color: #FFF;
+  font-weight: bold; }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .CopyRight .devlopper {
+    text-align: center !important;
+    font-size: 15px; }
+
+  .CopyRight .WebsiteCopyRight {
+    padding-top: 3px;
+    text-align: left !important;
+    font-size: 13px; } }
+@media (min-width: 576px) and (max-width: 767px) {
+  .CopyRight .devlopper {
+    text-align: center !important; }
+
+  .CopyRight .WebsiteCopyRight {
+    padding-top: 3px;
+    text-align: center !important;
+    font-size: 14px; } }
+@media (min-width: 336px) and (max-width: 575px) {
+  .CopyRight .devlopper {
+    text-align: center !important;
+    font-size: 12px !important; }
+
+  .CopyRight .WebsiteCopyRight {
+    padding-top: 3px;
+    text-align: center !important;
+    font-size: 10px !important; } }
+@media (min-width: 320px) and (max-width: 335px) {
+  .CopyRight .WebsiteCopyRight {
+    font-size: 10px !important; }
+
+  .CopyRight .devlopper {
+    font-size: 12px !important;
+    text-align: left !important; } }
+/******************************************************************/
+#topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none; }
+
+/*************************************************************/
+/*Button Reseservation */
+.ReseserveOne .btn-outline-new-white {
+  color: red;
+  background-color: transparent;
+  background-image: none;
+  border-color: #cfa671; }
+.ReseserveOne .btn-outline-new-white:hover {
+  color: #08680c; }
+
+/*************************************************************/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+.NavBar_Section
+{
+    background-color: $Colorblack;
+    z-index: 99999;
+        
+    .Title
+    {
+        font-size: 35px;
+        font-family: 'Roboto', sans-serif !important;
+    }
+
+    .navbar-dark .navbar-nav .nav-link 
+    {
+        font-size: 20px;
+        color: $Color_FFF;
+        cursor: pointer;
+        margin-left: 10px;
+
+        &:hover
+        {
+            color: $Color_CCC ;
+        }
+    }
+
+    .navbar-dark .navbar-toggler-icon
+    {
+         background-image: url("https://img.icons8.com/cotton/256/000000/menu.png");
+         background-color: $Color_CCC ;
+         border-radius: 50%;
+         font-size: 30px;
+    }
+}
